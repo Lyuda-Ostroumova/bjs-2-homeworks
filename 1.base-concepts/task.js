@@ -17,7 +17,7 @@ else if (D == 0) {
 else if (D > 0) {
   x1 = (-b + Math.sqrt(D) )/(2*a);
   x2 = (-b - Math.sqrt(D) )/(2*a);
- arr = [x1, x2];
+  arr = [x1, x2];
 }
 
 return arr;
