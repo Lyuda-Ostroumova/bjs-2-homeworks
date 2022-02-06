@@ -73,6 +73,18 @@ for (i = 0; i < arr.length; i++) {
 
  return diff;
 
+<<<<<<< HEAD
+=======
+}
+
+function makeWork(arrOfArr, func) {
+  
+  for (let i = 0; i < arrOfArr.length; i++) {
+     diff = worker2(arrOfArr[i]);
+  }
+
+  return diff;
+>>>>>>> refs/remotes/origin/main
 }
 
 function makeWork(arrOfArr, func) {
