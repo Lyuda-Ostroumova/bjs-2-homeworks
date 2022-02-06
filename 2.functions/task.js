@@ -46,9 +46,8 @@ function makeWork(arrOfArr, func) {
       max = sum
     }
   }
-
+  
   return max;
-
 }
 
 // Задание 3
@@ -72,9 +71,6 @@ for (i = 0; i < arr.length; i++) {
  diff = Math.abs(max - min);
 
  return diff;
-
-<<<<<<< HEAD
-=======
 }
 
 function makeWork(arrOfArr, func) {
@@ -84,7 +80,6 @@ function makeWork(arrOfArr, func) {
   }
 
   return diff;
->>>>>>> refs/remotes/origin/main
 }
 
 function makeWork(arrOfArr, func) {
