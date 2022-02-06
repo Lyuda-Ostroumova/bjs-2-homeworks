@@ -51,7 +51,6 @@ function makeWork(arrOfArr, func) {
 
 }
 
-
 // Задание 3
 function worker2(arr) {
   let min = arr[0];
@@ -84,6 +83,5 @@ function makeWork(arrOfArr, func) {
 
   return diff;
 }
-
 
 
