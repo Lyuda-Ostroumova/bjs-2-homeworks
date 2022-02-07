@@ -7,8 +7,6 @@ function compareArrays(arr1, arr2) {
 }
 
 
-
-
 function advancedFilter(arr) {
   let resultArr;
 
