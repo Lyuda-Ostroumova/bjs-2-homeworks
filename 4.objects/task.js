@@ -6,7 +6,6 @@ function Student(name, gender, age) {
 
 Student.prototype.setSubject = function (subjectName) {
    this.subject = subjectName;
-   
 }
 
 Student.prototype.addMark = function (mark) {
@@ -33,6 +32,5 @@ Student.prototype.exclude = function (reason) {
 
   delete this.subject;
   delete this.marks;
-
   this.excluded = reason;
 }
