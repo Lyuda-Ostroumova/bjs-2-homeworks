@@ -9,8 +9,7 @@ Student.prototype.setSubject = function (subjectName) {
 }
 
 Student.prototype.addMark = function (mark) {
-  
-   if (this.marks === undefined) {
+  if (this.marks === undefined) {
       this.marks = [mark];
     } else {
       this.marks.push(mark);
@@ -29,7 +28,6 @@ Student.prototype.getAverage = function () {
 }
 
 Student.prototype.exclude = function (reason) {
-
   delete this.subject;
   delete this.marks;
   this.excluded = reason;
